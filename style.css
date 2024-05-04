@@ -1,0 +1,79 @@
+/* Some CSS Code to match in "https://tasksheet.tempurl.host/" to match the design */
+
+/* Header Styling */
+header.wp-block-template-part {
+    --wp--preset--color--foreground: #6FABAC;
+    --wp--preset--color--secondary: #C95200;
+    position: relative;
+}
+
+header.wp-block-template-part .wp-block-site-title {
+    text-align: center;
+}
+
+header.wp-block-template-part .wp-block-navigation {
+    color: #6FABAC;
+    background: #FFF;
+}
+
+header.wp-block-template-part .wp-block-navigation ul li a {
+    padding: 10px;
+}
+
+header.wp-block-template-part figure.wp-block-image {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+header.wp-block-template-part form.wp-block-search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2em;
+}
+
+header.wp-block-template-part form.wp-block-search label {
+    display: none;
+}
+
+header.wp-block-template-part form.wp-block-search input {
+    border-radius: 0 !important;
+}
+
+header.wp-block-template-part form.wp-block-search button {
+    --wp--preset--color--foreground: #000;
+    border-radius: 0 !important;
+    font-weight: 700;
+}
+
+/* Post Query Styling */
+main.wp-block-query {
+    padding: 2em;
+    margin: 0;
+}
+
+main.wp-block-query ul li>div {
+    margin-block-end: 1em;
+}
+
+main.wp-block-query ul li figure {
+    --wp--style--block-gap: 0;
+    border-radius: 0.75em;
+    overflow: hidden;
+}
+
+main.wp-block-query ul li h2 {
+    --wp--preset--font-size--medium: 0.85em;
+    --wp--preset--color--vivid-red: #6FABAC;
+    margin-block-start: 1.25em;
+    text-align: center;
+}
+
+/* Footer Styling */
+footer.wp-block-template-part p.wp-block-site-title {
+    color: #C95200;
+    font-style: normal;
+}
+footer.wp-block-template-part a.has-link-color {
+    --wp--preset--color--vivid-red: #6FABAC;
+}
